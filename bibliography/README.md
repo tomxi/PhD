@@ -51,15 +51,34 @@ The beauty of music is such that we can percieve all of these dimensions at once
 
 Cohn, R. L. (2012). _Audacious euphony : chromaticism and the triad's second nature._ New York, Oxford University Press.
 
-    This work establishes the topology of the harmony space by formalizing the concept of distance between triads. Many musical examples and examples of useful graph formulations in the harmony space that is the tonnetz. My foundational text in the Neo-Riemmanian tradition.
+    This work establishes the topology of the harmony space by formalizing the concept of distance between triads. 
+    Many musical examples and examples of useful graph formulations in the harmony space that is the tonnetz. 
+    My foundational text in the Neo-Riemmanian tradition.
 
-Schenker
+Cadwallader, A. C. and D. Gagné (2011). _Analysis of tonal music : a Schenkerian approach._ New York, Oxford University Press.
 
-    bla bla bla
+    This is my reference text on traditional Schenkerian analysis.
 
-Jason Yust
+Yust, J. (2018). Organized time : rhythm, tonality, and form. New York, Oxford University Press.
 
-    bla bla
+    This text heavily influenced my understanding of music.
+    A relativly new, but highly insirational text that formalizes and promotes the independence of separable elements of music.
+    Extending from Neo-Riemmanian and Schenkerian traditions, this work formalizes the use of graph for multiple dimentions of music systematically.
+
+Krumhansl, C. L. and L. L. Cuddy (2010). A theory of tonal hierarchies in music. Music perception, Springer: 51-87.
+
+    This text talks about some relationship in the tonal space that I can leverage to build relational spaces (graphs on topologies).
+    This is inline with the Position-finding Pattern-matching philosophy of understanding music, and musical spaces.
+
+Kopp, David. "On Performing Chopin’s Barcarolle." Music Theory Online 20.4 (2014).
+
+    This text symbolized a "lighthouse" to anchor my musical research.
+    How can theory advnace performance, or otherwise translate to actional knowledge, has been a distinct interest of my since Prof. Kopp inducted me into the world of chromatisism in the Nei-Reimmanian tradition.
+    His class also made me became fascinated with this perticular piece: Chopin's Bacarolle, which I've learnt and performed on piano.
+    A specific musical piece, like Chopin's Barcarolle, can illuminate many concepts that I would want to develop, and this text is a model on how to use theory to concretely influence music making.
+
+
+Multivalence stuff
 
 Multimodal stuff
 
