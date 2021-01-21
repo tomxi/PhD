@@ -2,7 +2,7 @@
 Music is dances on graphs.
 
 ## Current Task:
-- [] *1/28* Continue to work on bibliography for 
+- [ ] *1/28* Continue to work on bibliography.
 - [x] *1/21* Produce Annotated Bibliography to find the 3-person Candidacy panel. 
 
 ## Random Thoughts:

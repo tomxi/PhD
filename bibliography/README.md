@@ -25,7 +25,7 @@ The fact mathematical graph theory can be successfully used to understand musica
 I aim to promote the individualities of each of the identified elements, and build different graphs that captures the essense of the strucutre of that individual element.
 I aim to understand a musical performance as **~~walks~~ dances on graphs**, with each elements dancing individually in their own relational space that is distilled as a graph that features some relationships of interest. In other words, a piece of music is multiple independent walks on different graphs all at once. Each of these trajectories in the element space might seem trivial, but I argue that music is essentially the multimodal congrunencies/counterpoints that happens between the trajectory of each separable elements in their respective relational space.
 
-Computationally, this could motivate a princle for build **new digitial representations** of musical pieces as **multi-walks-on-graphs**. Many contemporary **Music Informatics** techniques, including neural nets, could be meaningfully applied as soon as an appropriate digital represnetation of music can be codified as concurrent patterned trajectories on meaningful graphs, each capturing the most important relationships of a single element of music.
+Computationally, this could motivate a princle for building **new digitial representations** of musical pieces as **multi-walks-on-graphs**. Many contemporary **Music Informatics** techniques, including neural nets, could be meaningfully applied as soon as an appropriate digital represnetation of music can be codified as concurrent patterned trajectories on meaningful graphs, each capturing the most important relationships of a single element of music.
 
 ### Other important themes
 - Duality/Multiplicity
@@ -87,12 +87,13 @@ Kopp, David. "On Performing Chopin’s Barcarolle." Music Theory Online 20.4 (20
 
 Multivalence stuff
 
+Tuning Theory
+
 Multimodal stuff
 
     Congruency and Counterpoint
 
 ### Graph Theory and Topology
----------
 Dan's book
 
     bla bla
@@ -105,9 +106,15 @@ Spectral graph theory and spectral clustering
 
 Spectral drawing and distance.
 
+Measure Theory
+
+### Psychoacoustics
+human frequency resolution, basis for defining intervals in the pitch space.
+
+
+
 
 ### Music Informatics
----------
 Katie Kinnard Heiarchy
 
 Structure Uri
@@ -126,7 +133,6 @@ Modeling the multiscale structure of chord sequences using polytopic graphs [Lou
 
 
 ### Digital Representation
----------
 Jams
 
 Guitarset
