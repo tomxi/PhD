@@ -55,6 +55,13 @@ Cohn, R. L. (2012). _Audacious euphony : chromaticism and the triad's second nat
     Many musical examples and examples of useful graph formulations in the harmony space that is the tonnetz. 
     My foundational text in the Neo-Riemmanian tradition.
 
+Tymoczko, Dmitri. "The Generalized Tonnetz." Journal of Music Theory 56.1 (2012).
+
+    The face-vertices, chord-note duality of the pitch space is explicitly stated and explored in this work.
+    This work confirms my intuition that there are multiple perspectives of the pitch/harmony space, and the classic tonnetz is just one of many.
+    The multiplicity theme applies here, in which I would argue for simutaneous appreciations in all percievalbe tonnetz.
+    I would consider recognizing an organization of the pitch space alla tonnetz style as understanding a perticular musical "language". IE chromatic mediants slowly became a part of the chromatisism language by showcasing the relationship embodied by the classic Tonnetz.
+
 Cadwallader, A. C. and D. Gagné (2011). _Analysis of tonal music : a Schenkerian approach._ New York, Oxford University Press.
 
     This is my reference text on traditional Schenkerian analysis.
