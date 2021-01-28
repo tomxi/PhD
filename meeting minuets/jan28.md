@@ -6,7 +6,7 @@
 > Prioritize
 
 - Registration Plan
-> Agniezka
+> need some help
 
 - Bibliograph and Candidacy Commitee: where are we?
 > Continue working

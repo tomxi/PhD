@@ -2,7 +2,10 @@
 Music is dances on graphs.
 
 ## Current Task:
-- [ ] *1/28* Continue to work on bibliography.
+- [ ] *2/2* reorganize Bibliography, put in annotation.
+- [ ] *2/2* Prioritize reading list
+- [ ] *2/2* Start thinking about ISMIR
+- [x] *1/28* Continue to work on bibliography.
 - [x] *1/21* Produce Annotated Bibliography to find the 3-person Candidacy panel. 
 
 ## Random Thoughts:
