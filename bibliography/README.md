@@ -60,129 +60,222 @@ The beauty of music is such that we can percieve all of these dimensions at once
 ---------
 
 ### Music Theory
+Lerdahl, F., & Jackendoff, R. S. (1996). A Generative Theory of Tonal Music, reissue, with a new preface. MIT press. 
+> .
 
-- [x] Cohn, R. L. (2012). _Audacious euphony : chromaticism and the triad's second nature._ New York, Oxford University Press.
+Chew, E. (2002). The spiral array: An algorithm for determining key boundaries. International Conference on Music and Artificial Intelligence, Edinburgh, Scotland, UK.
+> .
 
-    This work establishes the topology of the harmony space by formalizing the concept of distance between triads. 
-    Many musical examples and examples of useful graph formulations in the harmony space that is the tonnetz. 
-    My foundational text in the Neo-Riemmanian tradition.
+Smith, N. A., & Cuddy, L. (2003). Perceptions of musical dimensions in Beethoven's Waldsiein sonata: An application of Tonal Pitch Space theory. Musicae Scientiae, 7(1), 7-34. 
+> .
 
-- [x] Tymoczko, Dmitri. "A geometry of music: Harmony and counterpoint in the extended common practice." (2010).
+Lerdahl, F. (2004). Tonal pitch space. Oxford University Press. 
+> .
 
-- [ ] Tymoczko, Dmitri. "The Generalized Tonnetz." Journal of Music Theory 56.1 (2012).
+Quinn, I. (2006). General equal-tempered harmony (introduction and part I). Perspectives of New Music, 114-158. 
+> .
 
-    The face-vertices, chord-note duality of the pitch space is explicitly stated and explored in this work.
-    This work confirms my intuition that there are multiple perspectives of the pitch/harmony space, and the classic tonnetz is just one of many.
-    The multiplicity theme applies here, in which I would argue for simutaneous appreciations in all percievalbe tonnetz.
-    I would consider recognizing an organization of the pitch space alla tonnetz style as understanding a perticular musical "language". IE chromatic mediants slowly became a part of the chromatisism language by showcasing the relationship embodied by the classic Tonnetz.
+Szeto, W. M., & Wong, M. H. (2006). A graph-theoretical approach for pattern matching in post-tonal music analysis. Journal of New Music Research, 35(4), 307-321. 
+> .
 
-- [x] Tymoczko, Dmitri, and Jason Yust. "Fourier phase and pitch-class sum." International Conference on Mathematics and Computation in Music. Springer, Cham, 2019.
+Callender, C. (2007). Continuous harmonic spaces. Journal of Music Theory, 51(2), 277-332. 
+> .
 
-    This is my reference text on traditional Schenkerian analysis.
+Lerdahl, F., & Krumhansl, C. L. (2007). Modeling Tonal Tension. Music Perception: An Interdisciplinary Journal, 24(4), 329-366. https://doi.org/10.1525/mp.2007.24.4.329 
+> .
 
-- [x] Yust, J. (2018). Organized time : rhythm, tonality, and form. New York, Oxford University Press.
+Quinn, I. (2007). General equal-tempered harmony: parts 2 and 3. Perspectives of New Music, 4-63. 
+> .
 
-    This text heavily influenced my understanding of music.
-    A relativly new, but highly insirational text that formalizes and promotes the independence of separable elements of music.
-    Extending from Neo-Riemmanian and Schenkerian traditions, this work formalizes the use of graph for multiple dimentions of music systematically.
+Callender, C., Quinn, I., & Tymoczko, D. (2008). Generalized voice-leading spaces. Science, 320(5874), 346-348. 
+> .
 
-- [ ] Yust, Jason. "Schubert’s harmonic language and Fourier phase space." Journal of Music Theory 59.1 (2015): 121-181.
+Krumhansl, C. L., & Cuddy, L. L. (2010). A theory of tonal hierarchies in music. In Music Perception (pp. 51-87). Springer. 
+> .
 
-- [ ] Callender, Clifton. "Continuous harmonic spaces." Journal of Music Theory 51.2 (2007): 277-332.
+Tymoczko, D. (2010). A geometry of music: Harmony and counterpoint in the extended common practice. Oxford University Press. 
+> .
 
-- [ ] Krumhansl, C. L. and L. L. Cuddy (2010). A theory of tonal hierarchies in music. Music perception, Springer: 51-87.
+Cadwallader, A. C., & Gagné, D. (2011). Analysis of tonal music : a Schenkerian approach (3rd ed.). Oxford University Press. 
+> .
 
-    This text talks about some relationship in the tonal space that I can leverage to build relational spaces (graphs on topologies).
-    This is inline with the Position-finding Pattern-matching philosophy of understanding music, and musical spaces.
+Cohn, R. L. (2012). Audacious euphony : chromaticism and the triad's second nature. Oxford University Press. 
+> .
 
-- [x] Kopp, David. "On Performing Chopin’s Barcarolle." Music Theory Online 20.4 (2014).
+Tymoczko, D. (2012). The generalized tonnetz. Journal of Music Theory, 1-52. 
+> .
 
-    How neo-riemmanian theory can influence performance.
+Akhmedov, A., & Winter, M. (2014). Chordal and timbral morphologies using Hamiltonian cycles. Journal of Mathematics and Music, 8(1), 1-24. 
+> .
 
-- [ ] Amiot, Emmanuel. Music through Fourier space. Springer International Publishing Switzerland, 2016.
+Chew, E. (2014). Mathematical and Computational Modeling of Tonality. Springer. 
+> .
 
-- [ ] Quinn, Ian. "A unified theory of chord quality in equal temperaments." (2004).
+Kopp, D. (2014). On Performing Chopin’s Barcarolle. Music Theory Online, 20(4). http://www.mtosmt.org/issues/mto.14.20.4/mto.14.20.4.kopp.php 
+> .
 
-- [ ] Quinn, Ian. "General equal-tempered harmony: parts 2 and 3." Perspectives of New Music (2007): 4-63.
+Yust, J. (2015). Schubert’s harmonic language and Fourier phase space. Journal of Music Theory, 59(1), 121-181. 
+> .
 
-- [ ] Callender, Clifton, Ian Quinn, and Dmitri Tymoczko. "Generalized voice-leading spaces." Science 320.5874 (2008): 346-348.
+Amiot, E. (2016). Music through Fourier space. Springer. 
+> .
 
-- [ ] Multivalence stuff
+Brody, C. (2016). Parametric Interaction in Tonal Repertoires. Journal of Music Theory, 60(2), 97-148. 
+> .
 
-- [ ] Tuning Theory
+Herremans, D., & Chew, E. (2016). Tension ribbons: Quantifying and visualising tonal tension. idea, 501, 2. 
+> .
 
-- [ ] Multimodal stuff
-    Congruency and Counterpoint
+Montiel, M., & Peck, R. W. (2018). Mathematical Music Theory: Algebraic, Geometric, Combinatorial, Topological and Applied Approaches to Understanding Musical Phenomena. World Scientific Publishing. 
+> .
 
-- [ ] Montiel, Mariana, and Robert W. Peck, eds. "Mathematical Music Theory: Algebraic, Geometric, Combinatorial, Topological and Applied Approaches to Understanding Musical Phenomena." (2018).
+Yust, J. (2018). Organized time : rhythm, tonality, and form. Oxford University Press. 
+> .
 
-- [ ] Eleain Chew
-- [ ] GTTM
-- [ ] Tonal Pitch Space 
+Tymoczko, D., & Yust, J. (2019). Fourier Phase and Pitch-Class Sum Mathematics and Computation in Music: 7th International Conference, Madrid, Spain. 
+> .
+
+Yust, J. (2020). Generalized Tonnetze and Zeitnetze, and the topology of music concepts. Journal of Mathematics and Music, 14(2), 170-203. 
+> .
 
 ### Graph Theory and Topology
-- [ ] [Spectral clustering Tutorial](https://link.springer.com/article/10.1007/s11222-007-9033-z)
-- [ ] Fan Chung Spectral graph theory
+Chung, F. R., & Graham, F. C. (1997). Spectral graph theory. American Mathematical Soc. 
+> Main reference on spectral graph theory
 
-- [ ] Dan's book
+Von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and computing, 17(4), 395-416. 
+> Consice introduction to spectral clustering
 
-- [ ] Chris Trallie's Trajectory stuff
+Demaine, E. D., Gomez-Martin, F., Meijer, H., Rappaport, D., Taslakian, P., Toussaint, G. T., Winograd, T., & Wood, D. R. (2009). The distance geometry of music. Computational geometry, 42(5), 429-454. 
+> .
 
-- [ ] Spectral graph theory and spectral clustering
+Toussaint, G. T. (2013). The Geometry of Musical Rhythm: What Makes a" Good" Rhythm Good? CRC Press. 
+> .
 
-- [ ] Spectral drawing and distance.
+Hughes, J. R. (2015). Using fundamental groups and groupoids of chord spaces to model voice leading. International Conference on Mathematics and Computation in Music, London, UK.
+> .
 
-- [ ] Measure Theory
+Bergomi, M. G., Baratè, A., & Di Fabio, B. (2016). Towards a topological fingerprint of music. International Workshop on Computational Topology in Image Context, Springer, Cham.
+> .
 
-- [ ] Isomap - manifold learning Vincent
+Cohn, R. (2016). A platonic model of funky rhythms. Music Theory Online, 22(2). https://mtosmt.org/issues/mto.16.22.2/mto.16.22.2.cohn.html
+> .
 
-- [ ] William: Harmonicity, spectral flux on intervals
+Tralie, C. (2016). High-dimensional geometry of sliding window embeddings of periodic videos. 32nd international symposium on computational geometry (socg 2016), Boston, USA.
+> .
+
+Louboutin, C., & Bimbot, F. (2017). Modeling the multiscale structure of chord sequences using polytopic graphs. ISMIR, Suzhou, China.
+> .
+
+Bendich, P., Gasparovic, E., Harer, J., & Tralie, C. J. (2018). Scaffoldings and spines: organizing high-dimensional data using cover trees, local principal component analysis, and persistent homology. In Research in computational topology (pp. 93-114). Springer. 
+> .
+
+Spielman, D. (2019). Spectral and algebraic graph theory   http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf
+> .
+
+Wu, Z., Pan, S., Long, G., Jiang, J., & Zhang, C. (2019). Graph WaveNet for Deep Spatial-Temporal Graph Modeling. IJCAI, Macao, China.
+> .
+
+Xu, B., Tralie, C. J., Antia, A., Lin, M., & Perea, J. A. (2019). Twisty takens: A geometric characterization of good observations on dense trajectories. Journal of Applied and Computational Topology, 3(4), 285-313. 
+> .
+
+Yao, L., & Bendich, P. (2020). Graph Spectral Embedding for Parsimonious Transmission of Multivariate Time Series. 2020 IEEE Aerospace Conference, Big Sky, Montana, USA.
+> .
+
+Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., & Yu, P. S. (2021). A Comprehensive Survey on Graph Neural Networks. IEEE transactions on neural networks and learning systems, 32(1), 4-24. https://doi.org/10.1109/TNNLS.2020.2978386 
+> .
 
 ### Psychoacoustics
-- [ ] human frequency resolution, basis for defining intervals in the pitch space.
+Bregman, A. S. (1994). Auditory scene analysis: The perceptual organization of sound. MIT press.
+> .
 
-- [ ] Krumhansl, Carol L.. Cognitive Foundations of Musical Pitch. United States, Oxford University Press, 2001.
+Parncutt, R. (1994). A perceptual model of pulse salience and metrical accent in musical rhythms. Music Perception, 11(4), 409-464.
+> . 
 
-- [ ] Radocy, Rudolf E., and J. David Boyle. "Psychological foundations of musical behavior." (2012).
+Thompson, W. F., & Parncutt, R. (1997). Perceptual judgments of triads and dyads: Assessment of a psychoacoustic model. Music Perception, 14(3), 263-280. 
+> .
 
-- [ ] When does pitch turn to rythm? 
+Large, E. W., & Jones, M. R. (1999). The dynamics of attending: How people track time-varying events. Psychological review, 106(1), 119. 
+> .
 
-- [ ] How out of tune does a interval needs to be? 
+Krumhansl, C. L. (2001). Cognitive foundations of musical pitch. Oxford University Press. 
+> .
+
+Large, E. W., & Palmer, C. (2002). Perceiving temporal regularity in music. Cognitive science, 26(1), 1-37. 
+> .
+
+Moore, B. C., & Gockel, H. (2002). Factors influencing sequential stream segregation. Acta Acustica United with Acustica, 88(3), 320-333. 
+> .
+
+Desain, P., & Honing, H. (2003). The formation of rhythmic categories and metric priming. Perception, 32(3), 341-365. 
+> .
+
+Kvifte, T. (2007). Categories and timing: On the perception of meter. Ethnomusicology, 51(1), 64-84. 
+> .
+
+McDermott, J. H., Keebler, M. V., Micheyl, C., & Oxenham, A. J. (2010). Musical intervals and relative pitch: Frequency resolution, not interval resolution, is special. The Journal of the Acoustical Society of America, 128(4), 1943-1951. 
+> .
+
+Farbood, M. M. (2012). A parametric, temporal model of musical tension. Music Perception, 29(4), 387-428. 
+> .
+
+Radocy, R. E., & Boyle, J. D. (2012). Psychological foundations of musical behavior. Charles C Thomas Publisher. 
+> .
+
+Parncutt, R., & Hair, G. (2018). A psychocultural theory of musical interval: Bye bye Pythagoras. Music Perception: An Interdisciplinary Journal, 35(4), 475-501. 
+> .
 
 ### Music Informatics
-- [ ] Katie Kinnard Heiarchy
+Yeung, M. M., Foote, J. T., Lienhart, R. W., Cooper, M. L., & Li, C.-S. (2003). Media segmentation using self-similarity decomposition Storage and Retrieval for Media Databases 2003,  Santa Clara, CA, USA.
+> .
 
-- [ ] Structure Uri
+Serra, J., Serra, X., & Andrzejak, R. G. (2009). Cross recurrence quantification for cover song identification. New Journal of Physics, 11(9), 093017.
+> .
 
-- [ ] Recurence Plot Xerra
+Bello, J. P. (2011). Measuring structural similarity in music. IEEE Transactions on Audio, Speech, and Language Processing, 19(7), 2013-2025.
+> .
 
-- [ ] Footes method
+Temperley, D., & Clercq, T. d. (2013). Statistical analysis of harmony and melody in rock music. Journal of New Music Research, 42(3), 187-204.
+> .
 
-- [ ] Meuller 
+McFee, B., & Ellis, D. (2014). Analyzing Song Structure with Spectral Clustering. ISMIR, Taipei, Taiwan.
+> .
 
-- [ ] Brian's structure stuff
+Müller, M. (2015). Fundamentals of music processing: Audio, analysis, algorithms, applications. Springer. 
+> Foundational reference in MIR, the chapter 4 is especailly relevant.
 
-- [ ] Modeling the multiscale structure of chord sequences using polytopic graphs [Louboutin]
+Kinnaird, K. M. (2016). Aligned Hierarchies: A Multi-Scale Structure-Based Representation for Music-Based Data Streams. ISMIR, New York City, USA.
+> .
 
-- [ ] - David Temperley - Rochester Rock Corpus
+Oord, A. v. d., Dieleman, S., Zen, H., Simonyan, K., Vinyals, O., Graves, A., Kalchbrenner, N., Senior, A., & Kavukcuoglu, K. (2016). Wavenet: A generative model for raw audio. arXiv preprint arXiv:1609.03499. 
+> .
 
+Kinnaird, K. M. (2017). Examining Musical Meaning in Similarity Thresholds. ISMIR, Suzhou, China.
+> .
+
+McFee, B., & Bello, J. P. (2017). Structured Training for Large-Vocabulary Chord Recognition. ISMIR, Suzhou, China.
+> .
+
+Bittner, R. M., McFee, B., & Bello, J. P. (2018). Multitask learning for fundamental frequency estimation in music. arXiv preprint arXiv:1809.00381. 
+> .
+
+Lostanlen, V. (2018). Eigentriads and Eigenprogressions on the Tonnetz. arXiv preprint arXiv:1810.00790. 
+> .
+
+McFee, B., & Kinnaird, K. M. (2019). Improving Structure Evaluation Through Automatic Hierarchy Expansion. ISMIR, Delft, Netherlands.
+> .
+
+Tralie, C. J., & McFee, B. (2019). Enhanced hierarchical music structure annotations via feature level similarity fusion. ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, UK. 
+> .
+
+Lostanlen, V., Sridhar, S., McFee, B., Farnsworth, A., & Bello, J. P. (2020). Learning the helix topology of musical pitch. ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain. 
+> .
+
+Nieto, O., Mysore, G. J., Wang, C.-i., Smith, J. B. L., Schlüter, J., Grill, T., & McFee, B. (2020). Audio-Based Music Structure Analysis: Current Trends, Open Challenges, and Applications. Transactions of the International Society for Music Information Retrieval, 3(1), 246-263. https://doi.org/10.5334/tismir.54 
+ > .
 
 ### Digital Representation
-- [ ] Jams
-
 - [ ] NetworkX library
 
 - [ ] [GNN lib for pytorch](https://atcold.github.io/pytorch-Deep-Learning/en/week13/13-3/)
 
 - [ ] Microsoft - GNN [model](https://github.com/microsoft/ptgnn)
-
-- [ ] Multi-task Training
-
-- [ ] Probablity Calibration
-
-- [ ] walk-on-Graph Representation?
-
-
-## People and Society of Interest
-- Mathematics and Computation in Music
-- SMPC
