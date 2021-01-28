@@ -58,6 +58,7 @@ The beauty of music is such that we can percieve all of these dimensions at once
 
 ## Bibliography
 ---------
+NYU Community can access PDFs of (almost) all the following reference via this [shared folder](https://drive.google.com/drive/folders/1SjnwrZBhSEoDpko6KiZn446aZdOYKT_5?usp=sharing) on google drive.
 
 ### Music Theory
 Lerdahl, F., & Jackendoff, R. S. (1996). A Generative Theory of Tonal Music, reissue, with a new preface. MIT press. 
