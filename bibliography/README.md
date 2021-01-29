@@ -1,8 +1,8 @@
-# Annotated Bibliography
+# Annotated Bibliography [WIP]
 
-## Forawrd
+## Preface
 My research intuition has led me to the crossroads where **music theory**, **graph theory**, **psychoacoustics**, and **computational audio informatics** meet.
-There would naturally be holes in my current grasp of each topics listed above, nonetheless I would like to first build a convincing narrative that showcases the tremendous potential where these topics meet.
+There would naturally be holes in my current grasp of each topics listed above, nonetheless I would like to first build a convincing narrative that showcases the potential where these topics meet.
 
 ### Current Hypothesis
 At first glimps, music seem to have several orthalgonal spaces:
@@ -25,18 +25,18 @@ At first glimps, music seem to have several orthalgonal spaces:
 Each of the above elements have rich structure, and graphs are natural ways of expressing the essence of these relationship.
 The fact mathematical graph theory can be successfully used to understand musical relationships has deep roots, making it's way into major branches of contemporary music theory: Neo-Riemannian theories showcase an aspect of the sturcture in the pitch space, while Schenkerian thoeries showcase the sturcture that is the form of a piece of music.
 
+I aim to **promote the individualities** of each of the identified elements by building different graphs that captures the essense of the strucutre of each individual element.
+I aim to understand a musical performance as **~~walks~~ dances on graphs**, with each elements dancing individually in their own relational space that is distilled as a graph/topology that features some relationships of interest. 
+In other words, a piece of music can be perceived as multiple concurrent time series of nodes on potentially different graphs; or in the continous case, multiple concurrent trajectories on different topologies all at once. 
+Each of these trajectories in their element space might seem trivial, but I argue that music is essentially the multimodal congrunencies/counterpoints that happens between the trajectory of each separable elements in their respective relational spaces.
+
+Computationally, this could motivate a princle for using existing **digitial representations** of graphs to represent musical pieces as **multi-walks-on-graphs**. 
+Many contemporary **Music Informatics** techniques, including neural nets, could be meaningfully applied as soon as an appropriate digital represnetation of music can be codified as concurrent patterned trajectories on meaningful graphs, each capturing the most important relationships of a single element of music.
+
 Upon further inspection: pitch, rythm, and form seem to be simply highlight different strctures of the same continuous time-space, understood as oscilliatory patterns in time with different time-scales.
 However, being a percieved phenomenon, music is understood through the prism that is the human mind.
 While theoretical structures in time-space can exist on any scale, the ~~limitations~~ characteristics of human auditory perception helps delignate the boundries and channels our focus and attention.
 The boundry between pitch and rythm, the boundry between rythm and form, I believe, are key psychoacoustic results that can help me better understand music, the phenomenon.
-
-While recognizing the unity of all musical elements, I aim to **promote the individualities** of each of the identified elements, and build different graphs that captures the essense of the strucutre of that individual element.
-I aim to understand a musical performance as **~~walks~~ dances on graphs**, with each elements dancing individually in their own relational space that is distilled as a graph/topology that features some relationships of interest. 
-In other words, a piece of music can be perceived as multiple independent walks on different graphs all at once. 
-Each of these trajectories in the element space might seem trivial, but I argue that music is essentially the multimodal congrunencies/counterpoints that happens between the trajectory of each separable elements in their respective relational space.
-
-Computationally, this could motivate a princle for using existing **digitial representations** of graphs to represent musical pieces as **multi-walks-on-graphs**. 
-Many contemporary **Music Informatics** techniques, including neural nets, could be meaningfully applied as soon as an appropriate digital represnetation of music can be codified as concurrent patterned trajectories on meaningful graphs, each capturing the most important relationships of a single element of music.
 
 ### Other important themes
 - Duality/Multiplicity
@@ -49,12 +49,11 @@ Many contemporary **Music Informatics** techniques, including neural nets, could
     - once we have a topology, we can quantatativly compare different trajectories on such a topology. 
     These topologies, such as the tonnetz, are what I consider to be the language of a certain musical tradition.
 - Equality for All elements
-    - One mission of my work is to promote the indepence of each separable musical elements by study their trajectory in their respective spaces individually first before considering the guestault effect that is the multimodal coungruency/counterpoint that is made up of these individual trajectories.
+    - I'd like to promote the indepence of each separable musical elements by study their trajectory in their respective spaces individually first before considering the guestault effect that is the multimodal coungruency/counterpoint, made up of many individual trajectories.
 
 ### Bottom line:
 A music performance is like a ribbon dance in a (high dimentional) space, and when viewed from different perspectives produces different beautiful patterns, each making sense in their own right.
 The beauty of music is such that we can percieve all of these dimensions at once, with ease, and the meaning of music comes from the intereactions between these perspectives.
-
 
 ## Bibliography
 ---------
