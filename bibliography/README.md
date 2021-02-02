@@ -13,8 +13,8 @@ At first glimps, music seem to have several orthalgonal spaces:
     - Neo-Riemmanian, post Transformation Theory
     - timbre (in terms of Fundamental/Harmonics relationships)
     - Frequency-Domain Envolopes, MFCC  
-- Rythm-Space
-    - syncapation/surface rythm
+- Rhythm-Space
+    - syncapation/surface rhythm
     - grove/meter
     - dynamic
     - articulation
@@ -27,23 +27,22 @@ The fact mathematical graph theory can be successfully used to understand musica
 
 I aim to **promote the individualities** of each of the identified elements by building different graphs that captures the essense of the strucutre of each individual element.
 I aim to understand a musical performance as **~~walks~~ dances on graphs**, with each elements dancing individually in their own relational space that is distilled as a graph/topology that features some relationships of interest. 
-In other words, a piece of music can be perceived as multiple concurrent time series of nodes on potentially different graphs; or in the continous case, multiple concurrent trajectories on different topologies all at once. 
 Each of these trajectories in their element space might seem trivial, but I argue that music is essentially the multimodal congrunencies/counterpoints that happens between the trajectory of each separable elements in their respective relational spaces.
 
 Computationally, this could motivate a princle for using existing **digitial representations** of graphs to represent musical pieces as **multi-walks-on-graphs**. 
-Many contemporary **Music Informatics** techniques, including neural nets, could be meaningfully applied as soon as an appropriate digital represnetation of music can be codified as concurrent patterned trajectories on meaningful graphs, each capturing the most important relationships of a single element of music.
+Many contemporary **Music Informatics** techniques, including neural nets, could be potentially meaningfully applied if an appropriate digital represnetation of music can be codified as concurrent patterned trajectories on meaningful graphs, each capturing the most important relationships of a single element of music.
 
-Upon further inspection: pitch, rythm, and form seem to be simply highlight different strctures of the same continuous time-space, understood as oscilliatory patterns in time with different time-scales.
+Upon further inspection: pitch, rhythm, and form seem to be simply highlight different strctures of the same continuous time-space, understood as oscilliatory patterns in time with different time-scales.
 However, being a percieved phenomenon, music is understood through the prism that is the human mind.
 While theoretical structures in time-space can exist on any scale, the ~~limitations~~ characteristics of human auditory perception helps delignate the boundries and channels our focus and attention.
-The boundry between pitch and rythm, the boundry between rythm and form, I believe, are key psychoacoustic results that can help me better understand music, the phenomenon.
+The boundry between pitch and rhythm, the boundry between rhythm and form, I believe, are key psychoacoustic results that can help me better understand music, the phenomenon.
 
 ### Other important themes
 - Duality/Multiplicity
     - Chord to Note = Note to Spectrum (French Spectralism Music)
     - Each graph have a dual graph: Note as vertices, Triades as faces = Note as faces, Triades as vertices. 
 - All about the Distance
-    - Tonnetz can bu put on a torus
+    - Tonnetz can be put on a torus
     - The vertices of my graphs are really lattice points on a topology, which features a certain aspect of the pitch space's structure.
     - if our current 12-tone systems are lattices points on a continuous space... other tuning systems?
     - once we have a topology, we can quantatativly compare different trajectories on such a topology. 
@@ -57,7 +56,8 @@ The beauty of music is such that we can percieve all of these dimensions at once
 
 ## Bibliography
 ---------
-NYU Community can access PDFs of (almost) all the following reference via this [shared folder](https://drive.google.com/drive/folders/1SjnwrZBhSEoDpko6KiZn446aZdOYKT_5?usp=sharing) on google drive.
+NYU Community can access PDFs of (almost) all the following reference via this [shared folder](https://drive.google.com/drive/folders/1SjnwrZBhSEoDpko6KiZn446aZdOYKT_5?usp=sharing) on google drive. 
+Access for these PDFs were provided via NYU library.
 
 ### Music Theory
 Lerdahl, F., & Jackendoff, R. S. (1996). A Generative Theory of Tonal Music, reissue, with a new preface. MIT press. 
@@ -140,62 +140,81 @@ Yust, J. (2020). Generalized Tonnetze and Zeitnetze, and the topology of music c
 
 ### Graph Theory and Topology
 Chung, F. R., & Graham, F. C. (1997). Spectral graph theory. American Mathematical Soc. 
-> Main reference on spectral graph theory
+> Main reference on spectral graph theory. Chapter 1-4 seems perticularly relavent.
+> Prio: ch.1-4, High; else, Reference.
+
+Chung, F. (2005). Laplacians and the Cheeger inequality for directed graphs. Annals of Combinatorics, 9(1), 1-19.
+> How to form Laplacians for directed graph, if I decided to apply spectral techniques with directed graphs.
+> Prio: Low
 
 Von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and computing, 17(4), 395-416. 
-> Consice introduction to spectral clustering
+> Consice introduction to spectral clustering.
+> Prio: High
 
 Demaine, E. D., Gomez-Martin, F., Meijer, H., Rappaport, D., Taslakian, P., Toussaint, G. T., Winograd, T., & Wood, D. R. (2009). The distance geometry of music. Computational geometry, 42(5), 429-454. 
-> .
+> Similar to Groove Pizza, this paper talks about rythmic patterns as trajectroy on a circular graph, with the concept of maximually even set.
+> Prio: High
 
 Toussaint, G. T. (2013). The Geometry of Musical Rhythm: What Makes a" Good" Rhythm Good? CRC Press. 
-> .
+> Extendeds the idea from (Demaine et al, 2009). Rhythmic patterns viewed through graphs.
+> Prio: Ref
 
 Hughes, J. R. (2015). Using fundamental groups and groupoids of chord spaces to model voice leading. International Conference on Mathematics and Computation in Music, London, UK.
-> .
+> Introduced how algebraic topology tools (groups, category, homotopy), and how they can work with Music. Studies paths in different musical topologies.
+> Prio: High
 
 Bergomi, M. G., Baratè, A., & Di Fabio, B. (2016). Towards a topological fingerprint of music. International Workshop on Computational Topology in Image Context, Springer, Cham.
-> .
+> Infuses duration into tonnetz, and heavily uses the concept of persistent homology. It is able to generate a digital representation of a musical passage.
+> Prio: Med
 
 Cohn, R. (2016). A platonic model of funky rhythms. Music Theory Online, 22(2). https://mtosmt.org/issues/mto.16.22.2/mto.16.22.2.cohn.html
-> .
+> Using trajectory on simple circle graphs to understand the conception of "funky" rhythm that pervades world music and jazz.
+> Prio: Low
 
 Tralie, C. (2016). High-dimensional geometry of sliding window embeddings of periodic videos. 32nd international symposium on computational geometry (socg 2016), Boston, USA.
-> .
+> By studying sliding window embeddings (short continous segments) of periodic videos with topological tools, repeatable segments can be understood as loops on hypertorus.
+> Prio: Med
 
 Louboutin, C., & Bimbot, F. (2017). Modeling the multiscale structure of chord sequences using polytopic graphs. ISMIR, Suzhou, China.
-> .
+> A graph that showcases metrical positions relationships is used to study heiarchecal relationships of chords.
+> Prio: Med
 
 Bendich, P., Gasparovic, E., Harer, J., & Tralie, C. J. (2018). Scaffoldings and spines: organizing high-dimensional data using cover trees, local principal component analysis, and persistent homology. In Research in computational topology (pp. 93-114). Springer. 
-> .
+> A topological technique of organizing point cloud data, with applications on Music data. 
+> Prio: Low
 
-Spielman, D. (2019). Spectral and algebraic graph theory   http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf
-> .
+Spielman, D. (2019). Spectral and algebraic graph theory http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf
+> Reference on Spectral Graph Theory.
+> Prio: Ref
 
 Wu, Z., Pan, S., Long, G., Jiang, J., & Zhang, C. (2019). Graph WaveNet for Deep Spatial-Temporal Graph Modeling. IJCAI, Macao, China.
-> .
+> While the graph formulated in this work is a bit different from what's in my conception, it still provides a way of formulating GNNs to perform similar transformations as the WaveNet. WaveNet to me seems like a "unrolled" graph.
+> Prio: Low
 
 Xu, B., Tralie, C. J., Antia, A., Lin, M., & Perea, J. A. (2019). Twisty takens: A geometric characterization of good observations on dense trajectories. Journal of Applied and Computational Topology, 3(4), 285-313. 
-> .
+> Following up on (Tralie, 2016), this is a more general study of trajectory formed in different topologies by sliding window embeddings of time series.
+> Prio: Low
 
 Yao, L., & Bendich, P. (2020). Graph Spectral Embedding for Parsimonious Transmission of Multivariate Time Series. 2020 IEEE Aerospace Conference, Big Sky, Montana, USA.
-> .
+> A little bit outside of my comfort zone, this one introduces a technique called Laplacian Events Signal Segmentation, which is a unsupervised technique that segments time series into events.
+> Prio: Med
 
 Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., & Yu, P. S. (2021). A Comprehensive Survey on Graph Neural Networks. IEEE transactions on neural networks and learning systems, 32(1), 4-24. https://doi.org/10.1109/TNNLS.2020.2978386 
-> .
+> A survey on what's happening in the GNN world.
+> Prio: Ref
 
 ### Psychoacoustics
 Bregman, A. S. (1994). Auditory scene analysis: The perceptual organization of sound. MIT press.
-> .
-
-Parncutt, R. (1994). A perceptual model of pulse salience and metrical accent in musical rhythms. Music Perception, 11(4), 409-464.
-> . 
+> Talks about integration of auditory events either temporally or harmonically. Will skim to find more relevant passages.
+> Prio: Ref
 
 Thompson, W. F., & Parncutt, R. (1997). Perceptual judgments of triads and dyads: Assessment of a psychoacoustic model. Music Perception, 14(3), 263-280. 
-> .
+> Perception study of the pitch space taken into account fundamentals, overtones, and subharmonics.
+> Prio: Med
 
 Large, E. W., & Jones, M. R. (1999). The dynamics of attending: How people track time-varying events. Psychological review, 106(1), 119. 
-> .
+> Tackles the issues of how human perceive priodic events with varying rates. How a expressive musical performance doesn't lie on "the grid", nevertheless, the rhythmic relationships can still be clearly perceived.
+> Prio: Med
 
 Krumhansl, C. L. (2001). Cognitive foundations of musical pitch. Oxford University Press. 
 > .
