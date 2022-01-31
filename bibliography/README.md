@@ -1,4 +1,4 @@
-# Annotated Bibliography [WIP]
+# Annotated Bibliography [WIP, abandoned, see new Annotated Bibliography]
 
 ## Preface
 My research intuition has led me to the crossroads where **music theory**, **graph theory**, **psychoacoustics**, and **computational audio informatics** meet.

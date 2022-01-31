@@ -1,0 +1,62 @@
+\section{Introduction}
+Musical structure is a central matter in the human musical experience, and has received attention from many fields, including Music Theory, Music Cognition, and Music Informatics.
+Many different methods and styles exist to analyze and communicate the structure of musical works, each analyzing different representations of the musical work, and aiming towards different goals and facilitate different tasks.
+For example, a Schenkerian analysis of a musical work will often start with the score, focuses on identifying a distilled structure in the form of a harmonically supported falling diatonic line called the Ursatz, and prioritizes communicating the tonal organization of the work for performers or listeners; while an online music streaming service provider might want to perform an analysis on their song catalogue that picks out the most appropriate 30 seconds of any track in the catalogue for consumer previewing, a music structure related task called music thumb-nailing.
+These different analysis goals and priorities contribute to the subtleties and complexities associated with analyzing musical structures.
+
+Recently, in the field of Music Information Retrieval (MIR), automatic Music Structure Analysis (MSA) has seen considerable development.
+However, while musical structures can be intricate and deeply nuanced, the MSA tasks in the MIR society are still largely confined to audio segmentation, which merely partitions an audio excerpt into non-overlapping labeled segments.
+Furthermore, the development of data-driven automatic methods is stymied by subjectivity and bias associated with different annotations and annotators who hold different, but often equally valid, interpretations that reflect their own priorities.
+
+In any case, I believe that successful auditory segmentation is a necessary precursor for music appreciation, understanding, and communication. However, merely identifying the audio segmentation boundaries is far from a satisfactory structural analysis. 
+Output format, system design, and techniques used for MSA are all heavily influences by the context and use cases under which the analysis would be useful. 
+Different tasks like cover song detection, music thumb-nailing, or automatic music generation will directly impact the selection of features, methods, and models for MSA. 
+Across input modalities and downstream tasks, an emerging theme is to produce an explainable segmentation of the musical work that encapsulate much relevant knowledge.
+
+\subsection{Need for Study}
+While automatic MSA has seen robust development in the past two-decade, current automatic MSA algorithms still suffers from limited utility, and their outputs lack explainability in general. 
+Current methods cannot resolve ambiguity or disagreement in annotation, and they are unable to meaningfully incorporate multiple interpretations or perspectives. 
+Furthermore, explainability and specificity of MSA outputs are inhibiting their application and utility from impacting more real-world scenarios and use cases.
+Currently, a typical automatic MSA pipeline generally involves 3 steps: 1) select and compute relevant musical features for each granular time point of the audio or musical score under analysis; 2) compare the features obtained for each time point with every other time point, and collect the result in the Self-Similarity Matrix (SSM); and 3) perform post-processing of the SSM to generate a labeled segmentation of the musical work.
+My hope is to incorporate two new elements into the typical MSA pipeline to address the lack of explainability and utility of current automatic MSA methods.
+
+\subsection{Intended Contributions}
+I would like to improve on the explainability and utility of MSA segmentation outputs by incorporating two ideas:
+
+First, I would like to consider the relationships between any pair of segments. Inspired by Neo-Riemannian theories, a branch of Transformational theory, I wish to shift the focus towards the transition between musical segments, as opposed to their individual identities. 
+While typical MSA algorithms segment music on a larger, formal scale, this idea of focusing on relationships between different segments on a smaller time scale is better articulated by \cite{lewin2011generalized} in his Transformational theory. 
+In Lewin’s case, relationships between musical segments (chords in this case) are called transformations, and take on structural importance that precedes individual chord's position in a tonal hierarchy. 
+Shifting attention away from “the identities of” to “the relationships between” different segments will create a network of relationship that all possible member segments can occupy. 
+One of the frequently referenced graphs in Neo-Riemannian theory is the Tonnetz, where different relationships between triads are represented by pairs of triangular faces in different orientations. 
+More generally, by connecting related musical segments based on their relationships, a graph much like the Tonnetz can be formed to inform the relationships between the segments. 
+Such graphs represent underlying topologies that detail the relationships between segments. 
+This means that by introducing relationships, the previously monotonous segment boundaries could encode more information about the transition.
+
+Secondly, I would like to recognize concurrently unfolding structures. Traditional MSA only produces a single segmentation that represents the structure of the audio excerpt in question. 
+It is well known that the segmentation is heavily influenced by the choice of musical features, and different structures surface accordingly. 
+While traditionally, a choice is made to present a single structure, I would like to promote the view that counterpoints between multiple concurrent structures are equally (if not more) commonplace. 
+Take for example a rhythmic guitar strumming passage over a jagged harmonic progression, interesting structures can be learnt by analyzing either just the rhythmic aspect, or just the chord progression. 
+The counterpoint between the rhythmic and harmonic structures should not be obfuscated by merging the two.
+
+To summarize, I wish to improving the explainability and specificity of automatic MSA on two separate fronts: 1) by incorporating topological relationships that’s inherent in musical elements, and 2) by recognizing concurrently unfolding structures and allow for possibility of multiple valid and distinct interpretations or annotations of the same piece of music.
+
+\subsection{Limitations and Delimitations}
+The availability of annotated music data limits this study by dictating the genre of audio recording and types of structure that gets analyzed, and perhaps imitated by a data-driven MSA model. 
+Furthermore, these data also dictate the objective evaluation that is typical in assessing a data-driven algorithm.
+
+I’d like to delimitate my research by focusing on aspects of automatic MSA that aims to solve specific problems, for example to facilitate music generation. 
+This research will also not focus deeply on the cognitive aspects of how human perceive musical structures.
+
+\subsection{Research Question}
+\begin{itemize}
+	\item Can incorporating topological relationships and analyzing different musical features independently help improve the explainability and utility of automatic music structure analysis? If so, how?
+\end{itemize}
+
+\subsubsection{Sub Questions}
+\begin{itemize}
+	\item Can analysis of individual musical features separately as well as together help explain subjectivity and interpretations in different annotations of musical structure?
+	\item Can we design systems to analyze different musical features of a musical work in order to understand the individual effects and contributions of each musical dimension? 
+	\item Can these usb-analysis on individual musical dimensions help explainability of the overall structure produced by the models, or help adapt their utilities to specific situations?
+	\item When analyzing either individual musical features or an aggregate, can considering topological relationships on both the frame level and the section level be used to help specify more nuanced parallelism in different musical aspects?
+	\item How can we establish or discover musically meaningful topologies, both on the frame level and the section level, that will aid analysis and improve explainability of model analysis output?
+\end{itemize}

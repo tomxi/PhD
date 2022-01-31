@@ -1,0 +1,48 @@
+%% This is annot.tex.
+%% 
+%% You'll need to change the title and author fields to reflect your
+%% information.
+%%
+%% Author: Titus Barik (titus@barik.net)
+%% Homepage: http://www.barik.net/sw/ieee/
+%% Reference: http://www.ctan.org/tex-archive/info/simplified-latex/
+
+\documentclass [11pt]{article}
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+\usepackage{subfiles}
+%\usepackage[subpreambles=true]{standalone}
+%\usepackage{import}
+%\usepackage[utf8]{inputenc}
+%\usepackage[english]{babel}
+%\usepackage[backend=biber,defernumbers=true,refsection=section]{biblatex}
+
+\title{Doctoral Candidacy Research Bibliography}
+\author{Yu Wang \\ N18667466 \\ 41-22 24th Street Apt 8C,\\ Long Island City, NY 11101 \\ (617)755-3362 \\wangyu@nyu.edu \\Program: Music Technology \\ Advisor: Dr. Juan P. Bello \\}
+
+%\addbibresource{theory.bib}
+%\addbibresource{cognition.bib}
+
+\begin{document}
+\maketitle
+\nocite{*}
+\section{General Bibliography}
+%\subsection{Music Theory, History, and Analysis}
+%\bibliographystyle{IEEEannot}
+%\bibliography{theory}
+
+\subfile{theory}
+\subfile{cognition}
+
+%\subsection{Music Cognition and Psychology of Music}
+\bibliographystyle{IEEEannot}
+%\bibliography{cognition.bib}
+\subsection{Computer Music and Interactive Music Systems}
+\subsection{Digital Signal Processing and Speech Processing}
+\subsection{Immersive Audio}
+\subsection{Music Information Retrieval}
+\subsection{Recording, Acoustics, and Audio Engineering}
+
+\section{Specialized Bibliography in Unsupervised Multi\-modal Learning of Rhythm Representation}
+
+\end{document}
