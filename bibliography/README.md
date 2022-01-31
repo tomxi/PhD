@@ -1,5 +1,9 @@
 # Annotated Bibliography [WIP, abandoned, see new Annotated Bibliography]
 
+**Note**
+
+This is an intial draft to establish my first explorations in this topic. This draft is incomplete and abandonded. See newer versions of topic proposal and bibliography elsewhere in this repo.
+
 ## Preface
 My research intuition has led me to the crossroads where **music theory**, **graph theory**, **psychoacoustics**, and **computational audio informatics** meet.
 There would naturally be holes in my current grasp of each topics listed above, nonetheless I would like to first build a convincing narrative that showcases the potential where these topics meet.
