@@ -1,2 +1,5 @@
 .vscode
 .DS_store
+
+*/latex/*.pdf
+*/latex/*.gz
