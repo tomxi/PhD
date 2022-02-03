@@ -3,3 +3,10 @@
 
 */latex/*.pdf
 */latex/*.gz
+*/latex/*.aux
+*/latex/*.fdb_latexmk
+*/latex/*.fls
+*/latex/*.log
+*/latex/*.out
+*/latex/*.bbl
+*/latex/*.blg
