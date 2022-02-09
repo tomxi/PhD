@@ -10,3 +10,4 @@
 */latex/*.out
 */latex/*.bbl
 */latex/*.blg
+*/latex/*.synctex*

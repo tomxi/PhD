@@ -1,17 +1,15 @@
 \section{Methodology}
-Typically, for researches aiming to improve a particular MIR task like MSA, one would often follow these four steps: 1) prepare a suitable dataset, 2) evaluate a existing baseline system on the dataset, 3) propose a new system design, and 4) evaluate the proposed system.
-While it is straightforward to evaluate the accuracy of MSA outputs against human annotations, it is not immediately clear how to measure explainability and utility of automatic MSA systems quantitatively.
-Nevertheless, inspired by other works on MSA explainability, I would start to answer my research questions by first exploring the potential of treating musical dimensions individually.
+Typically, research on MIR tasks like segmentation follow four steps: 1) prepare a suitable dataset, 2) evaluate baseline system on the dataset, 3) propose a new system design, and 4) evaluate the proposed system.
+While it is there are quantitative metrics to help evaluate the accuracy of MSA segmentation outputs against human annotations, it is not immediately clear how to measure explainability and utility of automatic MSA systems quantitatively.
+Nevertheless, inspired by other works on MSA explainability, I would start to answer my research questions by first exploring the potential of treating musical dimensions individually, and then by gainning a more nuanced look at the boundraies themselves.
 
-In order to understand the how different musical features or dimensions influence musical structures, it seems a productive first step to study the influences and impacts individual musical features have on human produced music structure annotation in the forms of labeled segments.
-To understand the individual and combined effects of different musical features, I propose training a model that is capable of scanning the SSM of a particular musical feature and predicting how much contribution this particular feature would have on the overall structure analysis.
+To understand the how different musical features or dimensions influence the perception musical structures, it seems a productive first step to study the influences and impacts individual musical features have on human produced music structure annotation in the forms of labeled segments.
+To understand the individual and combined effects of different musical features, I propose training a model that is capable of scanning the SSM of a particular musical feature and predicting whether that feature is useful to include in the analysis based on its individual structure.
 Such model can be trained with datasets that are already available.
 Pending on the discovery of this pilot study, I would further investigate whether annotator's attentiveness to different musical dimensions can be predicted via the style and statistics of their structure annotations.
+In addition to factoring out separable musical dimensions, I would also consider more nuanced relationships between identified musical elements and segments.
+% These spatial concepts for musical elements are being explored by music theorist and MIR researchers alike, and I believe would be an important tool for improving MSA model explainability and utility.
+% I plan to evaluate the utility of my proposed system by assessing the system's adaptability to different circumstances, and the extent of controllability and variation that it is capable of.
 
-In addition to factoring out separable musical dimensions, I would also consider a more nuanced relationships between identified musical elements and segments by incorporating topology and geometry.
-These spacial concepts for musical elements are being explored by music theorist and MIR researchers alike, and I believe would be an important tool for improving MSA model explainability and utility.
-I plan to evaluate the utility of my proposed system by assessing the system's adaptability to different circumstances, and the extent of controllability and variation that it is capable of.
-
-It may seem more straightforward to evaluate the explainability of model output via human subjective studies, but due to the current situation at large, I'm deliberately avoiding this method in order to avoid potential obstacle and uncertainties in progressing my research.
-Instead, I would like to evaluate model explainability by proxy via the model's ability to emulate different annotators, whose annotations and styles are different.
+I would like to evaluate model explainability by proxy via the model's ability to emulate different annotators, whose annotations and styles are different.
 The idea here is that if the proposed model has some mechanism (attentions for different dimensions) to explain why different annotators generate different annotations for the same musical work, then when the model outputs its own structure analysis predictions, one can look at the state or parameter of that mechanism to gain an increased understanding of what drove the model to these decisions.
