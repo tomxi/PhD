@@ -26,12 +26,7 @@ By providing human understandable explainations to why a model produces a certai
 % However the widespread utility of automatic MSA is hindered by the poor explainability of system outputs and difficulty in transferring knowledge between system designed for different tasks.
 
 \subsection{Segmentation Principles and Methods}
-\begin{figure}[H]
-    \centering
-    \includegraphics[height=3.5in]{ssm.pdf}
-    \caption{Self Similarity Matrix of an excerpt of the Dance of the Sugar Plum Fairy by Tchaikovsky. Section boundraies are depicted by green dashed lines.}
-    \label{fig:ssm}
-\end{figure}
+
 \cite{paulus2010audio} identified three main principles when segmenting music: homogeneity, novelty, and repetition.
 Later on, \cite{sargent2011regularity} emplo­yed a fourth principle: regularity of segments.
 The first three principles proposed by \citeauthor{paulus2010audio} can be captured by a standard tool in MSA: the self-similarity matrix (SSM) \citep{foote1999visualizing}.
@@ -43,6 +38,12 @@ From the computed SSM of a piece of music, homogeneity will show up as blocks, n
 Figure \ref{fig:ssm} shows the SSM of a 40 seconds excerpt of Tchaikovsky's Dance of the Sugar Plum Fairy.
 This excerpt starts with 3 short related phrases elaborating a dominant pedal, before ending with the famous solo celeste arppegios that leads to recapitulation.  
 Variations of SSM like the lag matrix \citep{goto2003lag} and the cross recurrence matrix \citep{serra2009cross} also exist and both improve discovery of repetitions.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=4.5in]{ssm.pdf}
+    \caption{Self Similarity Matrix of an excerpt of the Dance of the Sugar Plum Fairy by Tchaikovsky. Section boundraies are depicted by green dashed lines.}
+    \label{fig:ssm}
+\end{figure}
 
 Ultimately, the structure discovered by SSM is entirely conditioned on the type of musical feature that is being examined.
 While hand-crafted musical features reflecting domain knowledge are still effective \citep{mcfee2014_spectral}, features in the form of self-supervised deep neural network embeddings are start to become widespread \citep{salamon2021, mccallum2019unsupervised}.
