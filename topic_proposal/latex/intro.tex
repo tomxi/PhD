@@ -29,15 +29,17 @@ Currently, a typical automatic MSA pipeline generally involves 3 steps: 1) selec
 My hope is to incorporate two new elements into the typical MSA pipeline to address the lack of explainability of current automatic MSA methods.
 
 \subsection{Intended Contributions}
-\cite{molnar2019} points out several ways to achieve interpretable data-driven methods.
-Amongst them, two major strategies are to focus on the relatinoship between the feature and the predictions, and the relationship between training data points and predictions respectively.
-I would like to improve on the explainability of MSA segmentation outputs by incorporating two ideas that each use one of the above strategies:
+% \cite{molnar2019} points out several ways to achieve interpretable data-driven methods.
+% Amongst them, two major strategies are to focus on the relatinoship between the feature and the predictions, and the relationship between training data points and predictions respectively.
+I would like to improve on the explainability of MSA segmentation outputs by incorporating two ideas:
 
 % How does this relate to related data point method.
-First, given a predicted segmentation, the MSA model should be able to provide additional explaination for each predicted boundray in terms of similar data points, or prototypes, the model has seen during training that can support its disicion under question.
-This requires finding good representations for the segment boundaries, and elevate their importance to the same level as the segments, which are typically labeled.
-% Currently, in a labeled segmentation, typically only the segments are labeled, but not the segment boundaries.
-This shift of focus towards the transitional boundaries between musical segments, as opposed to the individual identities of the segments themselves, is also in part inspired by Neo-Riemannian theories, a branch of Transformational theory.
+First, I would like to consider the relationships between any pair of segments.
+Inspired by Neo-Riemannian theories, a branch of Transformational theory, I wish to shift the focus towards the transition between musical segments, as opposed to their individual identities.
+% First, given a predicted segmentation, the MSA model should be able to provide additional explaination for each predicted boundray in terms of similar data points, or prototypes, the model has seen during training that can support its disicion under question.
+% This requires finding good representations for the segment boundaries, and elevate their importance to the same level as the segments, which are typically labeled.
+Currently, in a labeled segmentation, typically only the segments are labeled, but not the segment boundaries.
+% This shift of focus towards the transitional boundaries between musical segments, as opposed to the individual identities of the segments themselves, is also in part inspired by Neo-Riemannian theories, a branch of Transformational theory.
 In Neo-Riemannian theorys, the segments in this case are harmonies, and the the representation for different types of segment boundraries are often facilitated by topologies induced by the segments themselves.
 A favorite such topology in Neo-Riemannian theory is the Tonnetz, where different relationships between triads are represented by pairs of triangular faces in different orientations. 
 More generally, by connecting related musical segments based on their relationships, a graph much like the Tonnetz can be formed to inform the relationships between the segments. 
@@ -53,7 +55,7 @@ While traditionally, a choice is made to present a single structure (potentially
 Take for example a rhythmic guitar strumming passage over a jagged harmonic progression, interesting structures can be learnt by analyzing either just the rhythmic aspect, or just the chord progression. 
 The counterpoint between the rhythmic and harmonic structures should not be obfuscated by merging the two.
 
-% To summarize, I wish to improve the explainability and specificity of automatic MSA on two separate fronts: 1) to make segment boundraries more specific by incorporating topological relationships that’s inherent in musical elements, and 2) to analyze features indepentdently and recognize concurrently unfolding structures and how this ensemble of structures can allow for possibility of multiple valid and distinct interpretations or annotations of the same piece of music.
+To summarize, I wish to improve the explainability and specificity of automatic MSA on two separate fronts: 1) to make segment boundraries more specific by incorporating topological relationships that’s inherent in musical elements, and 2) to analyze features indepentdently and recognize concurrently unfolding structures and how this ensemble of structures can allow for possibility of multiple valid and distinct interpretations or annotations of the same piece of music.
 
 \subsection{Limitations and Delimitations}
 The availability of annotated music data limits this study by dictating the genre of audio recording and types of structure that gets analyzed, and perhaps imitated by a data-driven MSA model. 

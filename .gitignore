@@ -1,7 +1,7 @@
 .vscode
 .DS_store
 
-*/latex/*.pdf
+*/latex/*.fff
 */latex/*.gz
 */latex/*.aux
 */latex/*.fdb_latexmk

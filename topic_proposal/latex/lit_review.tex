@@ -26,14 +26,22 @@ By providing human understandable explainations to why a model produces a certai
 % However the widespread utility of automatic MSA is hindered by the poor explainability of system outputs and difficulty in transferring knowledge between system designed for different tasks.
 
 \subsection{Segmentation Principles and Methods}
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=3.5in]{ssm.pdf}
+    \caption{Self Similarity Matrix of an excerpt of the Dance of the Sugar Plum Fairy by Tchaikovsky. Section boundraies are depicted by green dashed lines.}
+    \label{fig:ssm}
+\end{figure}
 \cite{paulus2010audio} identified three main principles when segmenting music: homogeneity, novelty, and repetition.
 Later on, \cite{sargent2011regularity} emplo­yed a fourth principle: regularity of segments.
 The first three principles proposed by \citeauthor{paulus2010audio} can be captured by a standard tool in MSA: the self-similarity matrix (SSM) \citep{foote1999visualizing}.
 The SSM records the similarity between any two points in time of some relevant musical feature, resulting in a square matrix.
 The size of the matrix is determined by the temporal granularity of the smallest segment possible, with finer granulartiy generating a larger matrix.
 Depending on application, the temporal granularity can be fine or corase.
-They are typically beats in audio-based MSA, and 16th notes or the note with the shortest duration in symbolic MSA.
+% They are typically beats in audio-based MSA, and 16th notes or the note with the shortest duration in symbolic MSA.
 From the computed SSM of a piece of music, homogeneity will show up as blocks, novelty will show up as edges, and repetition will show up as diagonal lines.
+Figure \ref{fig:ssm} shows the SSM of a 40 seconds excerpt of Tchaikovsky's Dance of the Sugar Plum Fairy.
+This excerpt starts with 3 short related phrases elaborating a dominant pedal, before ending with the famous solo celeste arppegios that leads to recapitulation.  
 Variations of SSM like the lag matrix \citep{goto2003lag} and the cross recurrence matrix \citep{serra2009cross} also exist and both improve discovery of repetitions.
 
 Ultimately, the structure discovered by SSM is entirely conditioned on the type of musical feature that is being examined.
@@ -72,5 +80,5 @@ By factoring out the analysis into musically meaningful dimensions, this approac
 % One attractive idea in Neo-Reimannian theory is the incorporation of geometry and topologies like the Tonnetz to explain musical similarity and distances of elements.
 % Besides tonnetz, other topological spaces like the ones introduced by \cite{callender2008generalized} can also be used to compute similarity metrics, or facilitate descriptions of relationships.
 % Such ideas has already seen their applications in automatic symbolic music analysis \citep{harte2006}, and the dissertation by \cite{tralie2017geometric} also showcase the potential of rigorously incorporating topological relationships has on increasing the explainability and utility of audio-based MSA.
-% In his book, \cite{yust2018organized} also dedicated 2 chapters on how graph and geometry can be used to represent and reason about temporal structures of different musical dimensions.
+% % In his book, \cite{yust2018organized} also dedicated 2 chapters on how graph and geometry can be used to represent and reason about temporal structures of different musical dimensions.
 % These trends inspires me to incorporate topological and geometrical relationships in musical analyses, and I believe this added view point of how musical elements transition from one to another in time will be valuable to provide better model output explainability and improve adaptivity to different use cases.
